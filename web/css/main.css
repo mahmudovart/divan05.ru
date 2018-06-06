@@ -1,0 +1,67 @@
+body,html{
+	margin: 0;
+	padding: 0;
+}
+
+/*Top*/
+#logo-head{
+	min-width: 240px;
+	width: auto;
+	height: 100px;
+	border: solid black;
+	border-color: #fff red black  #fff;
+
+	background-color:#fff;
+}
+#wrap-logo{
+	border: solid red 1px;
+}
+#logo-b{
+	position: relative;
+	top: 30px;
+	color: red;
+	font-size: 30px;
+}
+
+#sleng-head{
+	height:auto;
+	min-height: 100px;
+	border: solid;
+	text-align: center;
+	border-color: #fff #fff black red;
+}
+
+#sleng-head h4{
+	position: relative;
+	top: 10px;
+	font-size: 34px;
+}
+
+#sleng-head b{
+	color: white;
+	font-size: 25px;
+	padding: -15px;
+	border-radius: 5px;
+	background-color: red;
+
+}
+/*Top*/
+.imgsSize{
+	margin: auto;
+	width: auto;
+	height: auto;
+	min-height:500px;
+}
+.carousel-control{
+	background-color: none;
+	color: red;
+	opacity: 1;
+}
+#myCarousel{
+	height: auto;
+	width: auto;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+	height: 500px;
+}
